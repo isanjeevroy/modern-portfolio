@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(249, 249, 249);
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar {
+    display: flex;
+    
+}
+#logo{
+    width: 50%;
+}
+
+#logo img {
+    width: 100px;
+    /* height: 40px; */
+    margin-left: 10vw;
+}
+
+#list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#list li {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+#list li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    color: rgb(65, 57, 151);
+    font-size: 16px;
+    /* font-weight: 700;
+    border-radius: 18px; */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#list li a:hover{
+    color: blue;
+    text-decoration:underline;
+}
+/* first section content */
+.firstSection{
+    display:flex;
+    /* justify-content: center; */
+}
+.content{
+    width: 50%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.underline{
+    margin-right:45%;
+}
+.content p{
+    margin-top: 20vh;
+    margin-right: 17vw;
+    text-transform: uppercase;   
+}
+.content p2{
+    font-size: 30px;
+    margin-right:24% ;
+    font-weight: lighter;
+    /* font-family:fantasy; */
+}
+.content h1{
+    font-size: 80px;
+    margin: 70px 0 0 14% ;
+}
+.photo{
+    width: 50%;
+}
+.photo img{
+    width: 85%;
+    border-radius: 50%;
+    background-color: rgb(29, 28, 28);
+    border-radius: 60%;  
+}
+.gmail{
+    margin: 10vh 0 0 5vw;  
+}
+.btn{
+    padding: 20px;
+    margin: 5px;
+    background-color: yellow;
+    border-radius:10px;
+    border: 2px solid gray;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: rgb(21, 21, 213);
+    color: white;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.footer li{
+    padding:40px 5%;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-weight: bold; */
+}
+.follow{
+    padding: 0 6px;
+    cursor: pointer;
+}
+
+/* ************ */
+.active{
+    color: red;
+    background-color: blueviolet;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact | It's my Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="https://kit.fontawesome.com/4ed266986d.js" crossorigin="anonymous"></script>
+    <script src="js/contact.js"></script>
+</head>
+
+<!-- body section  -->
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <a href="index.html"><img src="img/logo.png" alt="Portfolio's Website"></a>
+        </div>
+        <ul id="list">
+            <li class="item"> <a href="index.html">Home</a></li>
+            <li class="item"> <a href="index.html">About</a></li>
+            <li class="item"> <a href="#">Services</a> </li>
+            <li class="item"> <a href="#footer">Contact us</a> </li>
+        </ul>
+    </nav>
+    <br>
+    <hr><br><br>
+
+    <!--  below navbar section -->
+    <div class="detail">
+        <ul class="contact">
+            <div style="margin-left: 12vw;font-size: 30px; font-weight: bold;text-decoration:dotted;">
+                <h1 style="margin-bottom: 20px;">Contact</h1>
+            </div>
+
+            <li> <span style="font-weight:bold"> Phone</span> <br> <br>+91 123-456-7890</li>
+            <li><span style="font-weight:bold"> Email</span> <br> <br>Contact@gmail.com</li>
+            <li><span style="font-weight:bold"> Follow Me</span> <br> <br><i class="fa fa-facebook-square follow"></i>
+                <i class="fa fa-instagram follow"></i><i class="fa fa-twitter-square follow"></i>
+            </li>
+
+        </ul>
+
+        <form action="">
+            <div class="form" id="form">
+                <p><input type="text" placeholder="Enter your full name" required class="input" id="name"></p><br>
+                <p><input type="email" placeholder="Enter your email" required class="input" id="email"></p> <br>
+                <p><input type="text" placeholder="Enter your subject" required class="input" id="subject"></p> <br>
+                <p><textarea name="paragraph_text" placeholder="Type here" class="input" id="msg" cols="30"
+                        rows="10"></textarea>
+                </p>
+                <button class="btn-submit" onclick="message()">Submit</button>
+                <div class="message">
+                    <div class="success" id="success">Your msg successfully sent!</div>
+                    <div class="danger" id="danger">Feilds can't be Empty!</div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>
